@@ -1,0 +1,14 @@
+@import"../SASS/Placeholder";
+@import"../SASS/Variables";
+.beforeLine::before,
+.afterLine::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 5px; 
+  background-color:white;
+  margin: 0 10px;
+}
+.background{
+    background-color:$maincolor;
+}

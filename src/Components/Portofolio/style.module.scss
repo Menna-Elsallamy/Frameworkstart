@@ -1,0 +1,26 @@
+@import"../SASS/Placeholder";
+@import"../SASS/Variables";
+.maincolor{
+    background-color:$maincolor ;
+}
+.thirdcolor{
+    color: $thirdcolor;
+}
+.beforeLine::before,
+.afterLine::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 5px; 
+  background-color:$thirdcolor;
+  margin: 0 10px;
+}
+.layer {
+    background-color: $Layercolor;
+    opacity: 0;
+    cursor: pointer;
+    &:hover {
+        opacity: 1;
+        transition: all 0.5s;
+    }
+}

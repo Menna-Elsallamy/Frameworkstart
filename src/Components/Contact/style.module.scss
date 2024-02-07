@@ -1,0 +1,17 @@
+@import"../SASS/Placeholder";
+@import"../SASS/Variables";
+.beforeLine::before,
+.afterLine::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 5px; 
+  background-color:$thirdcolor;
+  margin: 0 10px;
+}
+.thirdcolor{
+    color: $thirdcolor;
+}
+.maincolor{
+  background-color: $maincolor;
+}

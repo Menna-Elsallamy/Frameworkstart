@@ -1,0 +1,59 @@
+h1 {
+  font-family: sans-serif;
+  margin: 100px auto;
+  color: #228B22;
+  text-align: center;
+  font-size: 30px;
+  max-width: 600px;
+  position: relative;
+}
+
+h1:before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+
+h1:after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.maincolor {
+  background-color: #1abc9c;
+}
+
+.thirdcolor {
+  color: rgb(44, 62, 80);
+}
+
+.beforeLine::before,
+.afterLine::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(44, 62, 80);
+  margin: 0 10px;
+}
+
+.layer {
+  background-color: rgba(26, 188, 156, 0.9019607843);
+  opacity: 0;
+  cursor: pointer;
+}
+.layer:hover {
+  opacity: 1;
+  transition: all 0.5s;
+}/*# sourceMappingURL=style.module.css.map */
