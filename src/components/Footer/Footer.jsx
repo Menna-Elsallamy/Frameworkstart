@@ -4,6 +4,5 @@ export default function Footer() {
   return (
     <div className='bg-light p-3 text-center fixed-bottom'>Footer</div>
 
-    
   )
 }
